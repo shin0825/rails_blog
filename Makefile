@@ -13,4 +13,4 @@ down:
 	docker-compose down -v
 
 login:
-	docker exec -it web-container bash
+	docker exec -it web bash
