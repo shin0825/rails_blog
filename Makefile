@@ -12,5 +12,10 @@ ps:
 down:
 	docker-compose down -v
 
+start:
+	docker-compose start
+stop:
+	docker-compose stop
+
 login:
 	docker exec -it web bash
