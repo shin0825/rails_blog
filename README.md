@@ -47,3 +47,11 @@
 - Railsでブログを作ってみた | hirozak
 
   https://hirozak.space/posts/rails-blog
+
+- Rails 6にdeviseを入れてみる - wolfmasa's blog
+
+  http://wolfmasa.hatenadiary.com/entry/2019/10/07/180623
+
+- Devise4.7をRails6で動かす
+
+  https://qiita.com/NYC-Blue/items/4d950cb8eb63586aad84 #Qiita
