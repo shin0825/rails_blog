@@ -55,3 +55,7 @@
 - Devise4.7をRails6で動かす
 
   https://qiita.com/NYC-Blue/items/4d950cb8eb63586aad84 #Qiita
+
+- Rails6新機能 ActionText使用方法
+
+  https://qiita.com/tomokiyao/items/3c22ca9cb916d5c99ca4 #Qiita
