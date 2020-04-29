@@ -8,17 +8,6 @@ html
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   body
-    header
-      nav
-        - if user_signed_in?
-          strong
-            | Login account :
-            = current_user.email
-          strong
-            = link_to "Home", root_path
-          = link_to 'ログアウト', destroy_user_session_path, method: :delete
-        - else
-          = link_to 'ログイン', new_user_session_path
     p.notice
       = notice
     p.alert

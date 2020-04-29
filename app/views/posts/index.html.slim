@@ -1,21 +1,5 @@
-h1 Listing posts
-
-table
-  thead
-    tr
-      th Title
-      th
-      th
-      th
-
-  tbody
-    - @posts.each do |post|
-      tr
-        td = post.title
-        td = link_to 'Show', post
-        td = link_to 'Edit', edit_post_path(post)
-        td = link_to 'Destroy', post, data: { confirm: 'Are you sure?' }, method: :delete
-
-br
-
-= link_to 'New Post', new_post_path
+- @posts.each do |post|
+  h1
+    = link_to post.title, post
+  p
+    = post.created_at
